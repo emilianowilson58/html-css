@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="shortcut icon" href="midia/Media-iTunes.512.png" type="image/x-icon">
+       <title>Mídia em html5</title>
+</head>
+<body>
+       <h1>Carregando audio</h1>
+       <!-- o parametro controls é para dar play no audio e a tag audio junto com src serve para carregar o audio digitando a url completa-->
+
+       <!-- loop serve para repetir o audio sempre que terminar-->
+       <audio src="midia/halsey_without_me.mp3" controls loop>
+              <source src="midia/halsey_without.ogg" type="audio/ogg">
+              <p>Infelizmente o teu leitor não compativel a esse formato fassa o download do mesmo <a href="midia/halsey_without_me.mp3"></a></p>
+       </audio>
+       <br>
+       <br>
+       <!-- o poster serve para meter a capa do video -->
+       <video src="midia/Magoga.mp4" controls loop poster="capa/gustavo.png"></video>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Imagem dinamica</title>
+</head>
+<body>
+       <h1>Carregando Imagem dinâmica  em html5</h1>
+       <!-- .png .jpeg .jpg-->
+       <!-- .png são imagem sem fundo-->
+       <!-- .jpeg ou .jpg são imagem que têm fundo-->
+       <!-- <img src=" url da imagem" alt="texto alternativo ou indetificar a imagem"-->
+       <picture>
+              <source media="(max-width: 600px)" srcset="imagem/foto-p.png" type="image/png">
+              <source media="(max-width: 800px)" srcset="imagem/foto-m.png" type="image/png">
+              <img src="imagem/imagem-grande.png" alt="imagem/png">
+       </picture>
+</body>
+</html>
