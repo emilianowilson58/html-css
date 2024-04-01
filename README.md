@@ -1,2 +1,2 @@
 # html-css
- exercícios da minhas aulas ao domociliar
+ exercícios das aulas que eu dou aos meus amiga da escola e do bairro
