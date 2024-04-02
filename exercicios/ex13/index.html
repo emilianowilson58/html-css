@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte externa</title>
+    <style>
+        @font-face {
+            font-family: 'amor';
+            src: url('fonte/Love_You.otf')
+             format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Evermore';
+            src: url('fonte/Evermore.otf');
+        }
+
+        @font-face {
+            font-family: 'SteveHarvey';
+            src: url('fonte/SteveHarvey.otf');
+            font-weight: lighter;
+        }
+
+        h1.love{
+            font-family: amor;
+        }
+
+        h1#tecno{
+            font-family: Evermore;
+        }
+
+        h1#stev{
+            font-family: SteveHarvey;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="love">I LOVE YOU</h1>
+
+    <h1 id="tecno">Tecnologia</h1>
+
+    <h1 id="stev">SteveHarvey</h1>
+</body>
+</html>
